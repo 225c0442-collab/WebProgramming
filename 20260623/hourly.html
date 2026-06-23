@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1時間ごとの詳細天気</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body id="body" class="theme-day">
+  <header>
+    <h1 id="main-title">データ取得中...</h1>
+    <div id="time">----年--月--日 --:--:--</div>
+  </header>
+
+  <main>
+    <div style="text-align: left; margin-bottom: 1rem;">
+      <a href="index.html" class="btn-back">⬅ 週間予測（トップ）に戻る</a>
+    </div>
+
+    <h2 id="hourly-title">⏰ 1時間ごと詳細</h2>
+    <div class="table-container" id="hourly-scroll-container">
+      <table id="hourly-table"></table>
+    </div>
+  </main>
+</body>
+</html>
